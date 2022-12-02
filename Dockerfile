@@ -1,2 +1,2 @@
 FROM Alpine:3.16
-LABEL HELLO
+RUN echo hello
