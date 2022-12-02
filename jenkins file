@@ -16,13 +16,13 @@ pipeline {
             }
         }
         
-        stage('showing info') 
+        stage('Build Image') 
         
         {
              
             steps {
                 
-                sh 'docker info'
+                sh 'docker image build -t praveen:1.0 .'
             }
         }
 
