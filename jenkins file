@@ -22,7 +22,7 @@ pipeline {
              
             steps {
                 
-                sh 'docker image build -t praveen:1.0 .'
+                sh 'docker image build -t praveen:2.0 .'
             }
         }
 
